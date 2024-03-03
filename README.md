@@ -17,3 +17,4 @@ Steps to reproduce the issue:
 6. Notice that this time pageA and pageB are not unneccessarily rebuilt
 
 # Video
+https://github.com/ojciec-dev/go_router_rebuilds_issue/assets/46694136/893a4ae2-cd61-46cb-809e-4fe7084f6645
