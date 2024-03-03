@@ -1,4 +1,4 @@
-# go_router_test
+# GoRouter Rebuilds Issue
 
 This app demonstrates that using GoRouter(v13.2.0) with non-const widgets causes [build] method being called on
 Widgets that are no longer visible. However, the same transitions but using standard Navigator API does not cause
@@ -15,3 +15,5 @@ Steps to reproduce the issue:
 4. Change [_useGoRouter] to false and restart the app
 5. Again navigate from Home to pageD (via pageA, pageB and pageC)
 6. Notice that this time pageA and pageB are not unneccessarily rebuilt
+
+# Video
